@@ -1,0 +1,17 @@
+Add your data in /data/**2019**/image and /data/**2019**/pose/, which was collected by run.py in the /drone_testphase/src
+
+Modify the path(including train data and test data) in line 89 of train.py
+
+The training environment is tensorflow-gpu-1.3.0 and keras-2.1.2
+
+Just run it via python train.py
+
+You will get the models in /checkpoints/
+
+---------------------------how to collect data?-------------------
+
+Before collecting data, you should run the qualcomm board firstly. 
+
+Run src/run.py and you can grap the uav with your hand to collect the images of gate. 
+
+The ruesults would be generated in the name "year-month-day-time" folder.
