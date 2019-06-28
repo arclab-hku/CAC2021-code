@@ -1,0 +1,13 @@
+put the model in models/ and change the path of model in predict.py
+
+1. run predict/predict.py
+
+2. run src/control.py
+
+wait the uav taking off
+
+3. run src/execute_path.py
+
+The test environment: keras-2.1.2 and tensorflow-1.3.0(without gpu)
+
+other packages are all newest, you can follow the tips to sudo apt-get install the packages.
